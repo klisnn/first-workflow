@@ -16,3 +16,9 @@ jobs:
 
       - name: Date
         run: date
+
+      - name: Operating system information
+        run: uname -a
+
+      - name: Repository files
+        run: ls -la
